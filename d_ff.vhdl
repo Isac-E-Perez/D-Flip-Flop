@@ -1,5 +1,5 @@
 library ieee;
-use iee.std_logic_1164.all;
+use ieee.std_logic_1164.all;
 
 entity d_ff is
   port(
