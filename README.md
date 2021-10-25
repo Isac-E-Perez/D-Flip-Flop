@@ -1,4 +1,4 @@
-# D (Delay) Flip Flop Project
+# D (Data) Flip Flop Project
 
 ### About:
 
