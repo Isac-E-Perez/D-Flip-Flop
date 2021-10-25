@@ -1,7 +1,7 @@
 library ieee;
 use iee.std_logic_1164.all;
 
-entity d is
+entity d_ff is
   port(
     D, CLK, reset : in std_logic;
     Q, Qb : out std_logic
