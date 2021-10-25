@@ -14,5 +14,10 @@ begin
   process (D, CLK, reset)
   begin
     if (reset = '1') then Q <= '0';
-    -- this is for the data flip-flop, for delay flip 
-    elsif (rising_edge(CLK)) then
+    -- this is for a data flip-flop. If I wanted a delay flip-flop, I would use a negative edge
+    elsif (rising_edge(CLK)) then Q <= D;
+      Q <= D;
+      Qb <= not D;
+    end if;
+  end process;
+end behavioral;
