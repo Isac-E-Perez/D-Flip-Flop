@@ -29,17 +29,15 @@ begin
   -- Clock Process
   clock : process
   begin
-    CLK <= '0'; wait for 20 ns;
-    CLK <= '1'; wait for 20 ns;
-    wait;
+    CLK <= '0'; wait for 10 ns;
+    CLK <= '1'; wait for 10 ns;
   end process;
   
   -- Stimulus Process 
   stim_proc : process
   begin
     reset <= '0';
-    D <= '0'; wait for 20 ns;
-    D <= '1'; wait for 20 ns;
-    wait;
+    D <= '0'; wait for 40 ns;
+    D <= '1'; wait for 40 ns;
   end process;
 end behavioral;
