@@ -40,6 +40,15 @@ The selected signal assignment statement is evaluated each time there is a chang
 
 Afterwards, I worked on the behavioral (functional) simulation. Here, I will only verify the operations of the circuit. Stimuli is provided to the circuit, so I can verify the outputs behave as I expect. The VHDL file called 'd_ff_tb' is where I specified the stimuli to the circuit.
 
+<img width="421" alt="Screen Shot 2021-11-02 at 2 20 49 PM" src="https://user-images.githubusercontent.com/89553126/139931473-19a10624-a3ce-49c7-bd74-311dcab6f752.png">
+
+<img width="571" alt="Screen Shot 2021-11-02 at 2 21 06 PM" src="https://user-images.githubusercontent.com/89553126/139931185-10b9df7f-5c6f-4300-8111-c54984b911c2.png">
+
+
+The entity block has no input or output singals going into or out of the 'testbench', which makes sense since 'testbench' is a complete unit. The 'testbench' will go ahead and send the signals to the circuit in which it will read back those signals. Afterwards, I could check out whether these signals are correct. Therefore, I don't need anything going into or out of the testbench. Additionally, the process statement is a concurrent statement which is constituted of sequential statements exclusively.
+
+Finally, I verified the units outputted by using a waveform viewer.
+
 ![0](https://user-images.githubusercontent.com/89553126/138942225-a774aca9-2443-4536-9c55-babe050a49fa.png)
  
  
