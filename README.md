@@ -1,4 +1,4 @@
-# D (Data) Flip Flop Project
+# D (Data/Delay) Flip Flop Project
 
 ### About:
 
@@ -25,12 +25,17 @@ In VHDL, *D* is an input (**IN**) with *Q* and *Qb* as outputs (**OUTPUT**) of m
 **I/O's are specified here (the circuit is specified using a Hardware Desciption Language)**
 
 ![Screen Shot 2021-11-02 at 1 47 11 PM](https://user-images.githubusercontent.com/89553126/139926531-42c2e2eb-87d2-4f59-b8e0-29ffc9aacedd.png)
-
+ 
 **Internal description of the D flip-flop is specified here**
 
 ![Screen Shot 2021-11-02 at 1 47 24 PM](https://user-images.githubusercontent.com/89553126/139926541-fbea59a8-635a-4b6b-b0b2-7c65fbfb71da.png)
 
- 
+The *process* statement has three signals in its sensitivity list. That is the case because, as demonstrated from the truth table, a change in th evalues of any of these signals will cause a chnage in the output. It is a part of the circuit's behavior. 
+
+If the reset signal is high, the flip-flop just resets. The output will be zero.
+
+When the reset is inactive: when the clock has a rising edge,then the output *Q* will be equal to the input. *Qb* will be complementary to the input.
+
 ![0](https://user-images.githubusercontent.com/89553126/138942225-a774aca9-2443-4536-9c55-babe050a49fa.png)
  
  
