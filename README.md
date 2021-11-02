@@ -30,11 +30,15 @@ In VHDL, *D* is an input (**IN**) with *Q* and *Qb* as outputs (**OUTPUT**) of m
 
 ![Screen Shot 2021-11-02 at 1 47 24 PM](https://user-images.githubusercontent.com/89553126/139926541-fbea59a8-635a-4b6b-b0b2-7c65fbfb71da.png)
 
-The *process* statement has three signals in its sensitivity list. That is the case because, as demonstrated from the truth table, a change in th evalues of any of these signals will cause a chnage in the output. It is a part of the circuit's behavior. 
+The *process* statement has three signals in its sensitivity list. That is the case because, as demonstrated from the truth table, a change in the values of any of these signals will cause a chnage in the output. It is a part of the circuit's behavior. 
 
 If the reset signal is high, the flip-flop just resets. The output will be zero.
 
 When the reset is inactive: when the clock has a rising edge,then the output *Q* will be equal to the input. *Qb* will be complementary to the input.
+
+The selected signal assignment statement is evaluated each time there is a change in the chooser expression listed in the first line of the selected signal assignment statement. Re-evaluation also occurs every time there is a change in a conditional signal on the right-hand side of the signal assignment operator.
+
+Afterwards, I worked on the behavioral (functional) simulation. Here, I will only verify the operations of the circuit. Stimuli is provided to the circuit, so I can verify the outputs behave as I expect. The VHDL file called 'd_ff_tb' is where I specified the stimuli to the circuit.
 
 ![0](https://user-images.githubusercontent.com/89553126/138942225-a774aca9-2443-4536-9c55-babe050a49fa.png)
  
