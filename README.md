@@ -20,9 +20,13 @@ I emulated this VHDL code using GHDL in terminal, no errors occured, but when I 
 
 ### Results:
 
-In VHDL, *D*  
+In VHDL, *D* is an input (**IN**) with *Q* and *Qb* as outputs (**OUTPUT**) of my project.
+
+**I/O's are specified here (the circuit is specified using a Hardware Desciption Language)**
 
 ![Screen Shot 2021-11-02 at 1 47 11 PM](https://user-images.githubusercontent.com/89553126/139926531-42c2e2eb-87d2-4f59-b8e0-29ffc9aacedd.png)
+
+**Internal description of the D flip-flop is specified here**
 
 ![Screen Shot 2021-11-02 at 1 47 24 PM](https://user-images.githubusercontent.com/89553126/139926541-fbea59a8-635a-4b6b-b0b2-7c65fbfb71da.png)
 
