@@ -2,7 +2,7 @@
 
 ### About:
 
-For this project, I created a D flip-flop circuit and used VHDL code to implement the following circuit whos outputs is *Q* and *Qb*. Flip-flop are one of the more important building blocks of modern digitial electronics. They act similar to memory cells.
+For this project, I created a D flip-flop circuit and used VHDL code to implement the following circuit who's outputs is *Q* and *Qb*. The D flip-flop captures the D input value at the specified edge (i.e., rising or falling) of the clock. After the rising/falling clock edge, the captured value is available at *Q* output. Flip-flop are one of the more important building blocks of modern digitial electronics and are widely used as the basic building block of random access memory (RAM) and registers.  
 
 **D flip-flop with SR latch circuit diagram**
 
@@ -17,4 +17,5 @@ I emulated this VHDL code using GHDL in terminal, no errors occured, but when I 
 ### Results:
  
 ![0](https://user-images.githubusercontent.com/89553126/138942225-a774aca9-2443-4536-9c55-babe050a49fa.png)
+ 
  
