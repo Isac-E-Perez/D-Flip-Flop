@@ -3,6 +3,8 @@
 ### About:
 
 For this project, I created a D flip-flop circuit and used VHDL code to implement the following circuit whos outputs is *Q* and *Qb*. Flip-flop are one of the more important building blocks of modern digitial electronics. They act similar to memory cells.
+ 
+![Screen Shot 2021-11-02 at 12 28 19 PM](https://user-images.githubusercontent.com/89553126/139915568-b31f90f4-b3e6-4bc8-8f2b-7d28a6885882.png)
 
 ### Note:
 
