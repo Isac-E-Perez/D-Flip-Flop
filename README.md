@@ -19,6 +19,11 @@ Flip-flops are not to be confused with latches. In fact, flip-flops are built us
 I emulated this VHDL code using GHDL in terminal, no errors occured, but when I imported .vcd file into GTKwave the CLK wasn't shown up properly. To fix this, instead of declaring CLK values manually, I created a proper function for it. For some reason, in order to show internal signals in GTKwave, you need to declare them as well in the test bench, therefore I declared the values.
 
 ### Results:
+
+![Screen Shot 2021-11-02 at 1 47 11 PM](https://user-images.githubusercontent.com/89553126/139926531-42c2e2eb-87d2-4f59-b8e0-29ffc9aacedd.png)
+
+![Screen Shot 2021-11-02 at 1 47 24 PM](https://user-images.githubusercontent.com/89553126/139926541-fbea59a8-635a-4b6b-b0b2-7c65fbfb71da.png)
+
  
 ![0](https://user-images.githubusercontent.com/89553126/138942225-a774aca9-2443-4536-9c55-babe050a49fa.png)
  
