@@ -20,6 +20,8 @@ I emulated this VHDL code using GHDL in terminal, no errors occured, but when I 
 
 ### Results:
 
+In VHDL, *D*  
+
 ![Screen Shot 2021-11-02 at 1 47 11 PM](https://user-images.githubusercontent.com/89553126/139926531-42c2e2eb-87d2-4f59-b8e0-29ffc9aacedd.png)
 
 ![Screen Shot 2021-11-02 at 1 47 24 PM](https://user-images.githubusercontent.com/89553126/139926541-fbea59a8-635a-4b6b-b0b2-7c65fbfb71da.png)
