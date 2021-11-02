@@ -8,6 +8,10 @@ For this project, I created a D flip-flop circuit and used VHDL code to implemen
 
 ![Screen Shot 2021-11-02 at 12 44 32 PM](https://user-images.githubusercontent.com/89553126/139918046-a9fb0a86-0287-4b91-a3ea-6fc7efa24c54.png)
 
+**Truth Table for D flip-flop**
+
+![Screen Shot 2021-11-02 at 1 44 39 PM](https://user-images.githubusercontent.com/89553126/139925946-02b0ba9d-2358-4dff-90a8-c243caafc963.png)
+
 ### Note:
 
 Flip-flops are not to be confused with latches. In fact, flip-flops are built using latches.
